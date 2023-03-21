@@ -17,8 +17,8 @@
     }
     
 
- //Verif($_GET['nom'],3,4,'bienn',$array);
- //var_dump($array);
+ Verif($_GET['nom'],3,4,'bienn',$array);
+ var_dump($array);
 
 $viriObj = new Verification();
 $viriObj->email($_GET['nom']);

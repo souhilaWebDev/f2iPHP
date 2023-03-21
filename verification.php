@@ -8,7 +8,7 @@
             
                 array_push( $array,$message);
             }
-            return $array;
+            return $this->array;
         }
         public function Email($name){
             
